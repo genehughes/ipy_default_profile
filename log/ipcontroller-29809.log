@@ -1,0 +1,28 @@
+2015-02-25 05:37:51.329 [IPControllerApp] Hub listening on tcp://127.0.0.1:34207 for registration.
+2015-02-25 05:37:51.332 [IPControllerApp] Hub using DB backend: 'NoDB'
+2015-02-25 05:37:51.584 [IPControllerApp] hub::created hub
+2015-02-25 05:37:51.585 [IPControllerApp] writing connection info to /home/johnb/.ipython/profile_default/security/ipcontroller-client.json
+2015-02-25 05:37:51.586 [IPControllerApp] writing connection info to /home/johnb/.ipython/profile_default/security/ipcontroller-engine.json
+2015-02-25 05:37:51.587 [IPControllerApp] task::using Python leastload Task scheduler
+2015-02-25 05:37:51.587 [IPControllerApp] Heartmonitor started
+2015-02-25 05:37:51.648 [IPControllerApp] Creating pid file: /home/johnb/.ipython/profile_default/pid/ipcontroller.pid
+2015-02-25 05:37:51.654 [IPControllerApp] client::client '\x00h\xd4xV' requested 'connection_request'
+2015-02-25 05:37:51.654 [IPControllerApp] client::client ['\x00h\xd4xV'] connected
+2015-02-25 05:37:52.234 [IPControllerApp] client::client '54d7a189-ac75-4327-b489-f2a0a3e821b3' requested 'registration_request'
+2015-02-25 05:37:52.287 [IPControllerApp] client::client 'f8b9add5-d3c1-4ee3-b0d7-0581ea14010b' requested 'registration_request'
+2015-02-25 05:37:52.326 [IPControllerApp] client::client '82f9da69-d35b-4108-aa99-0d05efbca771' requested 'registration_request'
+2015-02-25 05:37:52.499 [IPControllerApp] client::client '10f433f2-8be4-4c42-ac5d-89911ac82709' requested 'registration_request'
+2015-02-25 05:37:52.510 [IPControllerApp] WARNING | iopub::IOPub message lacks parent: {'parent_header': {}, 'msg_type': 'status', 'msg_id': '5085af5d-8f79-461e-a8a0-6921d7580ab0', 'content': {'execution_state': 'starting'}, 'header': {'date': datetime.datetime(2015, 2, 25, 5, 37, 52, 509165), 'username': 'root', 'session': '54d7a189-ac75-4327-b489-f2a0a3e821b3', 'msg_id': '5085af5d-8f79-461e-a8a0-6921d7580ab0', 'msg_type': 'status'}, 'buffers': [], 'metadata': {}}
+2015-02-25 05:37:52.545 [IPControllerApp] WARNING | iopub::IOPub message lacks parent: {'parent_header': {}, 'msg_type': 'status', 'msg_id': '4f9f5e71-7b7d-45e8-9004-f8ec79878a0e', 'content': {'execution_state': 'starting'}, 'header': {'date': datetime.datetime(2015, 2, 25, 5, 37, 52, 544237), 'username': 'root', 'session': 'f8b9add5-d3c1-4ee3-b0d7-0581ea14010b', 'msg_id': '4f9f5e71-7b7d-45e8-9004-f8ec79878a0e', 'msg_type': 'status'}, 'buffers': [], 'metadata': {}}
+2015-02-25 05:37:52.589 [IPControllerApp] WARNING | iopub::IOPub message lacks parent: {'parent_header': {}, 'msg_type': 'status', 'msg_id': 'bacabbb1-3ec5-461e-97d3-9f105825f414', 'content': {'execution_state': 'starting'}, 'header': {'date': datetime.datetime(2015, 2, 25, 5, 37, 52, 588532), 'username': 'root', 'session': '82f9da69-d35b-4108-aa99-0d05efbca771', 'msg_id': 'bacabbb1-3ec5-461e-97d3-9f105825f414', 'msg_type': 'status'}, 'buffers': [], 'metadata': {}}
+2015-02-25 05:37:52.766 [IPControllerApp] WARNING | iopub::IOPub message lacks parent: {'parent_header': {}, 'msg_type': 'status', 'msg_id': '746ed7ab-fb70-4279-9e2b-4a0eb47bacd0', 'content': {'execution_state': 'starting'}, 'header': {'date': datetime.datetime(2015, 2, 25, 5, 37, 52, 765487), 'username': 'root', 'session': '10f433f2-8be4-4c42-ac5d-89911ac82709', 'msg_id': '746ed7ab-fb70-4279-9e2b-4a0eb47bacd0', 'msg_type': 'status'}, 'buffers': [], 'metadata': {}}
+2015-02-25 05:37:57.588 [IPControllerApp] registration::finished registering engine 3:10f433f2-8be4-4c42-ac5d-89911ac82709
+2015-02-25 05:37:57.589 [IPControllerApp] engine::Engine Connected: 3
+2015-02-25 05:37:57.589 [IPControllerApp] registration::finished registering engine 0:54d7a189-ac75-4327-b489-f2a0a3e821b3
+2015-02-25 05:37:57.590 [IPControllerApp] engine::Engine Connected: 0
+2015-02-25 05:37:57.590 [IPControllerApp] registration::finished registering engine 2:82f9da69-d35b-4108-aa99-0d05efbca771
+2015-02-25 05:37:57.591 [IPControllerApp] engine::Engine Connected: 2
+2015-02-25 05:37:57.591 [IPControllerApp] registration::finished registering engine 1:f8b9add5-d3c1-4ee3-b0d7-0581ea14010b
+2015-02-25 05:37:57.592 [IPControllerApp] engine::Engine Connected: 1
+2015-02-25 17:55:11.218 [IPControllerApp] CRITICAL | Received signal 2, shutting down
+2015-02-25 17:55:11.364 [IPControllerApp] CRITICAL | terminating children...

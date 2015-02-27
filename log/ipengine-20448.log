@@ -1,0 +1,12 @@
+2015-02-03 16:43:38.713 [IPEngineApp] Loading url_file u'/home/johnb/.ipython/profile_default/security/ipcontroller-engine.json'
+2015-02-03 16:43:39.021 [IPEngineApp] Registering with controller at tcp://127.0.0.1:33513
+2015-02-03 16:43:41.025 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2015-02-03 16:43:41.161 [IPEngineApp] Using existing profile dir: u'/home/johnb/.ipython/profile_default'
+2015-02-03 16:43:41.290 [IPEngineApp] Running file in user namespace: /usr/local/batchRunScripts/python/pythonstartup.py
+2015-02-03 16:43:44.872 [IPEngineApp] Running file in user namespace: /usr/local/batchRunScripts/python/pythonstartup.py
+2015-02-03 16:43:44.984 [IPEngineApp] Completed registration with id 4
+2015-02-03 17:00:08.308 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2015-02-03 17:00:11.509 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).
+2015-02-03 17:01:29.576 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2015-02-03 17:02:35.136 [IPEngineApp] CRITICAL | Engine Interrupted, shutting down...
+

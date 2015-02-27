@@ -1,0 +1,54 @@
+2015-02-03 16:43:32.728 [IPControllerApp] Hub listening on tcp://127.0.0.1:33513 for registration.
+2015-02-03 16:43:32.799 [IPControllerApp] Hub using DB backend: 'NoDB'
+2015-02-03 16:43:33.079 [IPControllerApp] hub::created hub
+2015-02-03 16:43:33.079 [IPControllerApp] writing connection info to /home/johnb/.ipython/profile_default/security/ipcontroller-client.json
+2015-02-03 16:43:33.079 [IPControllerApp] writing connection info to /home/johnb/.ipython/profile_default/security/ipcontroller-engine.json
+2015-02-03 16:43:33.080 [IPControllerApp] task::using Python leastload Task scheduler
+2015-02-03 16:43:33.081 [IPControllerApp] Heartmonitor started
+2015-02-03 16:43:34.045 [IPControllerApp] Creating pid file: /home/johnb/.ipython/profile_default/pid/ipcontroller.pid
+2015-02-03 16:43:34.501 [IPControllerApp] client::client '\x00\x1bCu5' requested 'connection_request'
+2015-02-03 16:43:34.502 [IPControllerApp] client::client ['\x00\x1bCu5'] connected
+2015-02-03 16:43:36.002 [IPControllerApp] client::client 'ddf7bec3-3fe7-423a-bef8-cd58265d0ee8' requested 'registration_request'
+2015-02-03 16:43:36.125 [IPControllerApp] client::client '0b5f9f80-ddd6-485c-815b-1a1e1f2bb3b4' requested 'registration_request'
+2015-02-03 16:43:36.703 [IPControllerApp] client::client '25e21753-3efb-47e3-86f0-3478ce18370c' requested 'registration_request'
+2015-02-03 16:43:38.382 [IPControllerApp] client::client '8cf9d08e-cec6-409d-9583-d068638d613a' requested 'registration_request'
+2015-02-03 16:43:39.074 [IPControllerApp] client::client '549a7387-2067-42b7-b775-124a1e87e0e2' requested 'registration_request'
+2015-02-03 16:43:39.266 [IPControllerApp] client::client 'b711037a-8a4e-476c-b814-f366669b0552' requested 'registration_request'
+2015-02-03 16:43:39.513 [IPControllerApp] client::client '24ba4920-f4cb-4b39-bf98-74286efd8a39' requested 'registration_request'
+2015-02-03 16:43:39.698 [IPControllerApp] client::client '5f6cc733-9bc7-4226-a5dc-40abed1205ce' requested 'registration_request'
+2015-02-03 16:43:42.091 [IPControllerApp] registration::finished registering engine 3:8cf9d08e-cec6-409d-9583-d068638d613a
+2015-02-03 16:43:42.092 [IPControllerApp] engine::Engine Connected: 3
+2015-02-03 16:43:42.092 [IPControllerApp] registration::finished registering engine 2:25e21753-3efb-47e3-86f0-3478ce18370c
+2015-02-03 16:43:42.093 [IPControllerApp] engine::Engine Connected: 2
+2015-02-03 16:43:42.093 [IPControllerApp] registration::finished registering engine 1:0b5f9f80-ddd6-485c-815b-1a1e1f2bb3b4
+2015-02-03 16:43:42.094 [IPControllerApp] engine::Engine Connected: 1
+2015-02-03 16:43:42.094 [IPControllerApp] registration::finished registering engine 0:ddf7bec3-3fe7-423a-bef8-cd58265d0ee8
+2015-02-03 16:43:42.098 [IPControllerApp] engine::Engine Connected: 0
+2015-02-03 16:43:42.118 [IPControllerApp] WARNING | iopub::IOPub message lacks parent: {'parent_header': {}, 'msg_type': 'status', 'msg_id': '973b8ef7-9dd0-4e91-9f92-b4250e37608c', 'content': {'execution_state': 'starting'}, 'header': {'date': datetime.datetime(2015, 2, 3, 16, 43, 42, 115813), 'username': 'root', 'session': '0b5f9f80-ddd6-485c-815b-1a1e1f2bb3b4', 'msg_id': '973b8ef7-9dd0-4e91-9f92-b4250e37608c', 'msg_type': 'status'}, 'buffers': [], 'metadata': {}}
+2015-02-03 16:43:42.202 [IPControllerApp] WARNING | iopub::IOPub message lacks parent: {'parent_header': {}, 'msg_type': 'status', 'msg_id': '1ab17c2f-a954-49f5-a719-79c646a77f96', 'content': {'execution_state': 'starting'}, 'header': {'date': datetime.datetime(2015, 2, 3, 16, 43, 42, 141134), 'username': 'root', 'session': 'ddf7bec3-3fe7-423a-bef8-cd58265d0ee8', 'msg_id': '1ab17c2f-a954-49f5-a719-79c646a77f96', 'msg_type': 'status'}, 'buffers': [], 'metadata': {}}
+2015-02-03 16:43:42.314 [IPControllerApp] WARNING | iopub::IOPub message lacks parent: {'parent_header': {}, 'msg_type': 'status', 'msg_id': '9bab872f-3a44-4125-b706-166fe272fe17', 'content': {'execution_state': 'starting'}, 'header': {'date': datetime.datetime(2015, 2, 3, 16, 43, 42, 229173), 'username': 'root', 'session': '25e21753-3efb-47e3-86f0-3478ce18370c', 'msg_id': '9bab872f-3a44-4125-b706-166fe272fe17', 'msg_type': 'status'}, 'buffers': [], 'metadata': {}}
+2015-02-03 16:43:44.602 [IPControllerApp] WARNING | iopub::IOPub message lacks parent: {'parent_header': {}, 'msg_type': 'status', 'msg_id': '98559ff2-c7c1-487b-b774-9bddde2ce7a4', 'content': {'execution_state': 'starting'}, 'header': {'date': datetime.datetime(2015, 2, 3, 16, 43, 44, 556698), 'username': 'root', 'session': '8cf9d08e-cec6-409d-9583-d068638d613a', 'msg_id': '98559ff2-c7c1-487b-b774-9bddde2ce7a4', 'msg_type': 'status'}, 'buffers': [], 'metadata': {}}
+2015-02-03 16:43:44.817 [IPControllerApp] WARNING | iopub::IOPub message lacks parent: {'parent_header': {}, 'msg_type': 'status', 'msg_id': '2d59d7aa-2a56-418e-a0f3-f5ce1345b507', 'content': {'execution_state': 'starting'}, 'header': {'date': datetime.datetime(2015, 2, 3, 16, 43, 44, 785448), 'username': 'root', 'session': 'b711037a-8a4e-476c-b814-f366669b0552', 'msg_id': '2d59d7aa-2a56-418e-a0f3-f5ce1345b507', 'msg_type': 'status'}, 'buffers': [], 'metadata': {}}
+2015-02-03 16:43:44.917 [IPControllerApp] WARNING | iopub::IOPub message lacks parent: {'parent_header': {}, 'msg_type': 'status', 'msg_id': 'e418398c-6423-4068-b308-f683bdcc847f', 'content': {'execution_state': 'starting'}, 'header': {'date': datetime.datetime(2015, 2, 3, 16, 43, 44, 916593), 'username': 'root', 'session': '24ba4920-f4cb-4b39-bf98-74286efd8a39', 'msg_id': 'e418398c-6423-4068-b308-f683bdcc847f', 'msg_type': 'status'}, 'buffers': [], 'metadata': {}}
+2015-02-03 16:43:44.948 [IPControllerApp] WARNING | iopub::IOPub message lacks parent: {'parent_header': {}, 'msg_type': 'status', 'msg_id': 'b05972e5-616e-4404-bbd6-95819dab83b8', 'content': {'execution_state': 'starting'}, 'header': {'date': datetime.datetime(2015, 2, 3, 16, 43, 44, 947669), 'username': 'root', 'session': '549a7387-2067-42b7-b775-124a1e87e0e2', 'msg_id': 'b05972e5-616e-4404-bbd6-95819dab83b8', 'msg_type': 'status'}, 'buffers': [], 'metadata': {}}
+2015-02-03 16:43:45.089 [IPControllerApp] registration::finished registering engine 6:24ba4920-f4cb-4b39-bf98-74286efd8a39
+2015-02-03 16:43:45.090 [IPControllerApp] engine::Engine Connected: 6
+2015-02-03 16:43:45.090 [IPControllerApp] registration::finished registering engine 7:5f6cc733-9bc7-4226-a5dc-40abed1205ce
+2015-02-03 16:43:45.091 [IPControllerApp] engine::Engine Connected: 7
+2015-02-03 16:43:45.107 [IPControllerApp] registration::finished registering engine 4:549a7387-2067-42b7-b775-124a1e87e0e2
+2015-02-03 16:43:45.108 [IPControllerApp] engine::Engine Connected: 4
+2015-02-03 16:43:45.108 [IPControllerApp] registration::finished registering engine 5:b711037a-8a4e-476c-b814-f366669b0552
+2015-02-03 16:43:45.120 [IPControllerApp] engine::Engine Connected: 5
+2015-02-03 16:43:45.427 [IPControllerApp] WARNING | iopub::IOPub message lacks parent: {'parent_header': {}, 'msg_type': 'status', 'msg_id': '20b4c0de-91e7-4ebc-9707-336d2a121fed', 'content': {'execution_state': 'starting'}, 'header': {'date': datetime.datetime(2015, 2, 3, 16, 43, 45, 426164), 'username': 'root', 'session': '5f6cc733-9bc7-4226-a5dc-40abed1205ce', 'msg_id': '20b4c0de-91e7-4ebc-9707-336d2a121fed', 'msg_type': 'status'}, 'buffers': [], 'metadata': {}}
+2015-02-03 17:01:21.081 [IPControllerApp] heartbeat::missed 24ba4920-f4cb-4b39-bf98-74286efd8a39 : 1
+2015-02-03 17:01:21.121 [IPControllerApp] heartbeat::missed b711037a-8a4e-476c-b814-f366669b0552 : 1
+2015-02-03 17:01:24.083 [IPControllerApp] heartbeat::missed 24ba4920-f4cb-4b39-bf98-74286efd8a39 : 2
+2015-02-03 17:01:24.083 [IPControllerApp] heartbeat::missed b711037a-8a4e-476c-b814-f366669b0552 : 2
+2015-02-03 17:01:26.223 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): 1065.00318909 (current=1071.002)
+2015-02-03 17:02:28.420 [IPControllerApp] WARNING | heartbeat::heart '24ba4920-f4cb-4b39-bf98-74286efd8a39' missed a beat, and took 67339.11 ms to respond
+2015-02-03 17:02:28.421 [IPControllerApp] heartbeat::missed b711037a-8a4e-476c-b814-f366669b0552 : 3
+2015-02-03 17:02:29.460 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): 1065.00318909 (current=1135.341)
+2015-02-03 17:02:29.461 [IPControllerApp] WARNING | heartbeat::got bad heartbeat (possibly old?): 1068.00081396 (current=1135.341)
+2015-02-03 17:02:29.461 [IPControllerApp] WARNING | heartbeat::heart 'b711037a-8a4e-476c-b814-f366669b0552' missed a beat, and took 65378.53 ms to respond
+2015-02-03 17:02:35.094 [IPControllerApp] CRITICAL | Received signal 2, shutting down
+2015-02-03 17:02:35.094 [IPControllerApp] CRITICAL | terminating children...
