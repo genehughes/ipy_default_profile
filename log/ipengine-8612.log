@@ -1,3 +1,0 @@
-2015-01-29 19:37:14.501 [IPEngineApp] Loading url_file u'/home/johnb/.ipython/profile_default/security/ipcontroller-engine.json'
-2015-01-29 19:37:14.593 [IPEngineApp] Registering with controller at tcp://127.0.0.1:53416
-2015-01-29 19:37:19.597 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds

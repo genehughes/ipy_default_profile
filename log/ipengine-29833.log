@@ -1,9 +1,0 @@
-2015-02-25 05:37:52.218 [IPEngineApp] Loading url_file u'/home/johnb/.ipython/profile_default/security/ipcontroller-engine.json'
-2015-02-25 05:37:52.231 [IPEngineApp] Registering with controller at tcp://127.0.0.1:34207
-2015-02-25 05:37:52.327 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
-2015-02-25 05:37:52.334 [IPEngineApp] Using existing profile dir: u'/home/johnb/.ipython/profile_default'
-2015-02-25 05:37:52.336 [IPEngineApp] Running file in user namespace: /usr/local/batchRunScripts/python/pythonstartup.py
-2015-02-25 05:37:52.502 [IPEngineApp] Running file in user namespace: /usr/local/batchRunScripts/python/pythonstartup.py
-2015-02-25 05:37:52.509 [IPEngineApp] Completed registration with id 0
-2015-02-25 17:55:11.237 [IPEngineApp] CRITICAL | Engine Interrupted, shutting down...
-
